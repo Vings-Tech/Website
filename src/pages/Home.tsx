@@ -212,11 +212,40 @@ export const Home: React.FC = () => {
                 </span>
               </Link>
               <Link
+                to="https://vings-tech-project-hub.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+    group
+    relative
+    w-full sm:w-auto
+    px-8 py-4
+    rounded-full
+    font-bold text-lg
+    text-white
+    bg-gradient-to-r from-blue-500/20 to-cyan-500/20
+    border border-cyan-400/40
+    backdrop-blur-md
+    shadow-[0_0_20px_rgba(34,211,238,0.15)]
+    hover:shadow-[0_0_30px_rgba(34,211,238,0.35)]
+    hover:border-cyan-400/70
+    hover:scale-105
+    transition-all duration-300
+    flex items-center justify-center gap-2
+  "
+              >
+                <span>View Projects</span>
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  ↗
+                </span>
+              </Link>
+              <Link
                 to="/services"
                 className="w-full sm:w-auto bg-brand-card/60 backdrop-blur-md border border-brand-border/50 text-brand-text px-8 py-4 rounded-full font-bold text-lg hover:border-blue-500/30 hover:bg-brand-card transition-all flex items-center justify-center"
               >
                 View Services
               </Link>
+
             </div>
           </motion.div>
 
